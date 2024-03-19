@@ -1,0 +1,29 @@
+<% layout('./layout/BOILERPLATE') %>
+
+<div class="container  justify-content-center align-items-center mt-2">
+  <div class="row">
+    <div class="col-6 offset-3">
+      <div class="card shadow">
+        <img src="https://images.unsplash.com/photo-1489421382202-f7ec0cfd96f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHw0ODMyNTF8fHx8fHx8MTcxMDQ3NzIzMg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="" class="card-img-top">
+<div class="card-body">
+  <h5 class="card-title">Login</h5>
+  <form action="/login" method="POST" novalidate class="needs-validation">
+    <div class="mb-3">
+      <label for="username" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="username" name="username" required>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="password" name="password" required>
+      <div class="valid-feedback">Looks good!</div>
+    </div>
+    <div class="d-grid gap-2">
+    <button class="btn btn-success">Login</button>
+  </div>
+  </form>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
